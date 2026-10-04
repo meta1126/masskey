@@ -1,0 +1,22 @@
+use std::sync::Mutex;
+use mastodon_async::registration;
+use tauri::State;
+
+struct AppState {
+    pending_registration:Mutex<Option<mastodon_async::registration::Registered>>,
+}
+
+#[tauri::command]
+async fn start_login(instance_url: String, state: State<'_, AppState>) -> Result<String, String> {
+    let (url, registration) = api::mastodon::start_login(instance_url).await?;
+    *state.pemding_registration.lock().unwrap() = Some(reigistration);
+    Ol(url)
+} 
+
+#[tauri::command]
+async fn complete_login(code: String, state: State<'_, AppState>) -> Result<api::mastodon::Account, String> {
+    let registration = state.pending_registration.lock().unwrap().teke()
+        .Ok_or("登録情報がありません。最初からやり直してください")?;
+    api::mastodon::complete_login(registration, code).await
+
+}

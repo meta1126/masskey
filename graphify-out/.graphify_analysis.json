@@ -1,0 +1,234 @@
+{
+  "communities": {
+    "0": [
+      "kit",
+      "package",
+      "package_description",
+      "package_license",
+      "package_name",
+      "package_type",
+      "package_version",
+      "ref_node_process",
+      "ref_prettier",
+      "ref_prettier_plugin_svelte",
+      "ref_svelte",
+      "ref_svelte_check",
+      "ref_sveltejs_adapter_static",
+      "ref_sveltejs_kit",
+      "ref_sveltejs_vite_plugin_svelte",
+      "ref_tauri_apps_api",
+      "ref_tauri_apps_cli",
+      "ref_tauri_apps_plugin_opener",
+      "ref_tauri_apps_plugin_shell",
+      "ref_typescript",
+      "ref_vite",
+      "svelte_config",
+      "svelte_config_config",
+      "vite_config"
+    ],
+    "1": [
+      "ref_svelte_kit_tsconfig_json",
+      "tsconfig",
+      "tsconfig_compileroptions",
+      "tsconfig_compileroptions_allowjs",
+      "tsconfig_compileroptions_checkjs",
+      "tsconfig_compileroptions_esmoduleinterop",
+      "tsconfig_compileroptions_forceconsistentcasinginfilenames",
+      "tsconfig_compileroptions_moduleresolution",
+      "tsconfig_compileroptions_resolvejsonmodule",
+      "tsconfig_compileroptions_skiplibcheck",
+      "tsconfig_compileroptions_sourcemap",
+      "tsconfig_compileroptions_strict",
+      "tsconfig_extends"
+    ],
+    "2": [
+      "src_tauri_tauri_conf",
+      "src_tauri_tauri_conf_app",
+      "src_tauri_tauri_conf_app_security",
+      "src_tauri_tauri_conf_app_windows",
+      "src_tauri_tauri_conf_bundle",
+      "src_tauri_tauri_conf_bundle_active",
+      "src_tauri_tauri_conf_bundle_icon",
+      "src_tauri_tauri_conf_bundle_targets",
+      "src_tauri_tauri_conf_identifier",
+      "src_tauri_tauri_conf_productname",
+      "src_tauri_tauri_conf_schema",
+      "src_tauri_tauri_conf_security_csp",
+      "src_tauri_tauri_conf_version"
+    ],
+    "3": [
+      "package_devdependencies",
+      "package_devdependencies_prettier",
+      "package_devdependencies_prettier_plugin_svelte",
+      "package_devdependencies_svelte",
+      "package_devdependencies_svelte_check",
+      "package_devdependencies_sveltejs_adapter_static",
+      "package_devdependencies_sveltejs_kit",
+      "package_devdependencies_sveltejs_vite_plugin_svelte",
+      "package_devdependencies_tauri_apps_cli",
+      "package_devdependencies_typescript",
+      "package_devdependencies_vite"
+    ],
+    "4": [
+      "mutex",
+      "src_tauri_src_lib",
+      "src_tauri_src_lib_appstate",
+      "src_tauri_src_lib_complete_login",
+      "src_tauri_src_lib_rs_registered",
+      "src_tauri_src_lib_run",
+      "src_tauri_src_lib_start_login",
+      "state"
+    ],
+    "5": [
+      "package_scripts",
+      "package_scripts_build",
+      "package_scripts_check",
+      "package_scripts_check_watch",
+      "package_scripts_dev",
+      "package_scripts_prepare",
+      "package_scripts_preview",
+      "package_scripts_tauri"
+    ],
+    "6": [
+      "mastodon_async",
+      "serde",
+      "src_tauri_src_api_mastodon",
+      "src_tauri_src_api_mastodon_account",
+      "src_tauri_src_api_mastodon_complete_login",
+      "src_tauri_src_api_mastodon_rs_registered",
+      "src_tauri_src_api_mastodon_start_login"
+    ],
+    "7": [
+      "src_tauri_capabilities_default",
+      "src_tauri_capabilities_default_description",
+      "src_tauri_capabilities_default_identifier",
+      "src_tauri_capabilities_default_permissions",
+      "src_tauri_capabilities_default_schema",
+      "src_tauri_capabilities_default_windows"
+    ],
+    "8": [
+      "src_tauri_tauri_conf_build",
+      "src_tauri_tauri_conf_build_beforebuildcommand",
+      "src_tauri_tauri_conf_build_beforedevcommand",
+      "src_tauri_tauri_conf_build_devurl",
+      "src_tauri_tauri_conf_build_frontenddist"
+    ],
+    "9": [
+      "core",
+      "plugin_shell",
+      "src_lib_components_login",
+      "src_routes_page"
+    ],
+    "10": [
+      "package_dependencies",
+      "package_dependencies_tauri_apps_api",
+      "package_dependencies_tauri_apps_plugin_opener",
+      "package_dependencies_tauri_apps_plugin_shell"
+    ],
+    "11": [
+      "src_routes_layout",
+      "src_routes_layout_ssr"
+    ],
+    "12": [
+      "src_tauri_build",
+      "src_tauri_build_main"
+    ],
+    "13": [
+      "src_tauri_src_main",
+      "src_tauri_src_main_main"
+    ],
+    "14": [
+      "pkg_masskey"
+    ],
+    "15": [
+      "src_tauri_src_api_mod"
+    ]
+  },
+  "cohesion": {
+    "0": 0.09057971014492754,
+    "1": 0.15384615384615385,
+    "2": 0.15384615384615385,
+    "3": 0.18181818181818182,
+    "4": 0.42857142857142855,
+    "5": 0.25,
+    "6": 0.42857142857142855,
+    "7": 0.3333333333333333,
+    "8": 0.4,
+    "9": 0.6666666666666666,
+    "10": 0.5,
+    "11": 1.0,
+    "12": 1.0,
+    "13": 1.0,
+    "14": 1.0,
+    "15": 1.0
+  },
+  "gods": [
+    {
+      "id": "tsconfig_compileroptions",
+      "label": "compilerOptions",
+      "degree": 10
+    },
+    {
+      "id": "package_scripts",
+      "label": "scripts",
+      "degree": 8
+    },
+    {
+      "id": "src_tauri_src_lib_appstate",
+      "label": "AppState",
+      "degree": 5
+    },
+    {
+      "id": "src_tauri_tauri_conf_build",
+      "label": "build",
+      "degree": 5
+    },
+    {
+      "id": "src_tauri_src_lib_complete_login",
+      "label": "complete_login()",
+      "degree": 4
+    },
+    {
+      "id": "src_tauri_tauri_conf_bundle",
+      "label": "bundle",
+      "degree": 4
+    },
+    {
+      "id": "src_tauri_src_api_mastodon_account",
+      "label": "Account",
+      "degree": 3
+    },
+    {
+      "id": "src_tauri_src_api_mastodon_complete_login",
+      "label": "complete_login()",
+      "degree": 3
+    },
+    {
+      "id": "src_tauri_src_lib_start_login",
+      "label": "start_login()",
+      "degree": 3
+    },
+    {
+      "id": "src_tauri_tauri_conf_app",
+      "label": "app",
+      "degree": 3
+    }
+  ],
+  "surprises": [
+    {
+      "source": "complete_login()",
+      "target": "Account",
+      "source_files": [
+        "src-tauri/src/lib.rs",
+        "src-tauri/src/api/mastodon.rs"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "bridges separate communities"
+    }
+  ],
+  "tokens": {
+    "input": 0,
+    "output": 0
+  }
+}
